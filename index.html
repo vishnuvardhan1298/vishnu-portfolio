@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>M Vishnu Vardhan | QA Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 24px 0 32px;
+      border-bottom: 1px solid #1f2937;
+    }
+
+    .title-block h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #f9fafb;
+      margin-bottom: 4px;
+    }
+
+    .title-block h2 {
+      font-size: 18px;
+      font-weight: 500;
+      color: #9ca3af;
+      margin-bottom: 8px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .tag {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid #374151;
+      color: #9ca3af;
+    }
+
+    .contact-block {
+      text-align: right;
+      font-size: 13px;
+    }
+
+    .contact-block div {
+      margin-bottom: 4px;
+    }
+
+    main {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 32px;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #e5e7eb;
+      border-left: 3px solid #38bdf8;
+      padding-left: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #d1d5db;
+      margin-bottom: 8px;
+    }
+
+    .section-card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+    }
+
+    .section-card h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #e5e7eb;
+      margin-bottom: 4px;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 18px;
+      font-size: 14px;
+      color: #d1d5db;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .skill-category-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #e5e7eb;
+      margin-bottom: 4px;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #020617;
+      border: 1px solid #1e293b;
+      color: #9ca3af;
+    }
+
+    .lang-row {
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+
+    footer {
+      border-top: 1px solid #1f2937;
+      margin-top: 24px;
+      padding-top: 16px;
+      font-size: 12px;
+      color: #6b7280;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-block {
+        text-align: left;
+      }
+
+      header {
+        border-bottom: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title-block">
+        <h1>M Vishnu Vardhan</h1>
+        <h2>QA Engineer – Manual & Automation Testing</h2>
+        <p>Selenium | Java | TestNG | Maven | POM | SQL</p>
+        <div class="tags">
+          <span class="tag">Manual Testing</span>
+          <span class="tag">Selenium Automation</span>
+          <span class="tag">Agile</span>
+          <span class="tag">UI & Functional Testing</span>
+        </div>
+      </div>
+      <div class="contact-block">
+        <div>📍 Renigunta, Andhra Pradesh, India</div>
+        <div>📧 <a href="mailto:mvishnuvardhan1298@gmail.com">mvishnuvardhan1298@gmail.com</a></div>
+        <div>📱 <a href="tel:+916301270449">+91 6301270449</a></div>
+        <div>💻 <a href="https://github.com/vishnuvardhan1298" target="_blank">GitHub</a></div>
+        <div>🔗 <a href="https://linkedin.com/in/vishnu-vardhan-122b2738b" target="_blank">LinkedIn</a></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Left column -->
+      <div>
+        <section>
+          <h3>About</h3>
+          <div class="section-card">
+            <p>
+              I am a QA Engineer with experience in both Manual and Automation Testing, focused on building reliable test
+              coverage for web applications. I have worked on test case design, execution, regression and smoke testing,
+              and defect tracking during my training at HCLTech, following SDLC, STLC, and Agile practices.
+            </p>
+            <p>
+              On the automation side, I have built frameworks using Java, Selenium WebDriver, TestNG, Maven, and the
+              Page Object Model (POM). My projects cover login flows, UI validation, business workflows, and basic
+              backend validation using SQL.
+            </p>
+            <p>
+              I am actively seeking a role as a <strong>Selenium Automation Test Engineer</strong> where I can contribute to
+              high-quality releases while continuously improving my automation skills.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h3>Projects</h3>
+
+          <div class="section-card">
+            <h4>FinTech Online Banking Web Application – Automation</h4>
+            <div class="meta">Java · Selenium WebDriver · TestNG · Maven · POM · Excel (DDT)</div>
+            <ul>
+              <li>Automated workflows for login, account creation, fund transfer, and transaction history validation.</li>
+              <li>Designed reusable POM-based page classes to improve maintainability and readability of test scripts.</li>
+              <li>Implemented assertions to validate UI elements, error messages, and transaction consistency with backend data.</li>
+            </ul>
+            <p><strong>GitHub:</strong> <a href="https://github.com/vishnuvardhan1298/ParaBank-Automation" target="_blank">ParaBank-Automation</a></p>
+          </div>
+
+          <div class="section-card">
+            <h4>E‑Commerce Demo Web Application – Automation</h4>
+            <div class="meta">Java · Selenium WebDriver · TestNG · Maven · POM</div>
+            <ul>
+              <li>Automated end-to-end scenarios including product search, add-to-cart, update cart, and checkout workflow.</li>
+              <li>Validated success messages, price calculations, and cart operations using TestNG assertions.</li>
+              <li>Structured the test suite for regression-friendly execution and easier maintenance.</li>
+            </ul>
+            <p><strong>GitHub:</strong> <a href="https://github.com/vishnuvardhan1298/Ecommerce_DemoBlazeAutomation_Project" target="_blank">Ecommerce_DemoBlazeAutomation_Project</a></p>
+          </div>
+
+          <div class="section-card">
+            <h4>Contact Management System – Automation Mini Project</h4>
+            <div class="meta">Java · Selenium WebDriver · TestNG · Maven · POM</div>
+            <ul>
+              <li>Built reusable automation modules for login, registration, and CRUD operations on contact records.</li>
+              <li>Designed a modular test structure to maximize code reuse and reduce duplication.</li>
+              <li>Used POM to separate page locators and actions from test logic.</li>
+            </ul>
+            <p><strong>GitHub:</strong> <a href="https://github.com/vishnuvardhan1298/Contact_List_Automation" target="_blank">Contact_List_Automation</a></p>
+          </div>
+        </section>
+
+        <section>
+          <h3>Experience</h3>
+          <div class="section-card">
+            <h4>QA Trainee – Project Simulation (Training Program)</h4>
+            <div class="meta">HCLTech · Chennai, Tamil Nadu · Feb 2022 – May 2024</div>
+            <ul>
+              <li>Planned and executed functional, regression, and smoke test cases for simulated enterprise applications.</li>
+              <li>Developed structured test scenarios, test cases, and defect reports following STLC and Agile ceremonies.</li>
+              <li>Participated in sprint-based simulations including requirement analysis, test planning, execution, and daily stand‑ups.</li>
+              <li>Executed end-to-end test cycles using Excel-based test data and validated results via SQL queries.</li>
+              <li>Logged and tracked defects in Jira, ensuring clear documentation and follow-up through the defect life cycle.</li>
+              <li>Improved test coverage by reviewing and restructuring 120+ test cases across multiple modules.</li>
+              <li>Automated repetitive UI flows using Java, Selenium WebDriver, TestNG, and POM for internal practice modules.</li>
+              <li>Maintained high defect reproducibility (~95%) during bug triage through detailed steps and evidence.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right column -->
+      <div>
+        <section>
+          <h3>Skills</h3>
+          <div class="section-card">
+            <div class="skills-grid">
+              <div>
+                <div class="skill-category-title">Automation</div>
+                <div class="chip-row">
+                  <span class="chip">Selenium WebDriver</span>
+                  <span class="chip">Java</span>
+                  <span class="chip">TestNG</span>
+                  <span class="chip">Maven</span>
+                  <span class="chip">Page Object Model (POM)</span>
+                  <span class="chip">Data‑Driven Testing (Excel)</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-category-title">Manual Testing</div>
+                <div class="chip-row">
+                  <span class="chip">Functional Testing</span>
+                  <span class="chip">Regression Testing</span>
+                  <span class="chip">Smoke Testing</span>
+                  <span class="chip">UI Validation</span>
+                  <span class="chip">Test Case Design</span>
+                  <span class="chip">Defect Reporting</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-category-title">Tools & Reporting</div>
+                <div class="chip-row">
+                  <span class="chip">Jira</span>
+                  <span class="chip">Git</span>
+                  <span class="chip">GitHub</span>
+                  <span class="chip">Eclipse</span>
+                  <span class="chip">TestNG Reports</span>
+                  <span class="chip">Console Logs</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-category-title">Database & Methodologies</div>
+                <div class="chip-row">
+                  <span class="chip">SQL (Data Validation)</span>
+                  <span class="chip">Backend Testing</span>
+                  <span class="chip">Agile</span>
+                  <span class="chip">SDLC</span>
+                  <span class="chip">STLC</span>
+                  <span class="chip">Defect Life Cycle</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="skill-category-title">Operating System</div>
+                <div class="chip-row">
+                  <span class="chip">Windows</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Education</h3>
+          <div class="section-card">
+            <h4>Bachelor of Engineering (Electronics and Communication Engineering)</h4>
+            <div class="meta">Jawaharlal Nehru Technological University · Graduated: 2021</div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Languages</h3>
+          <div class="section-card">
+            <div class="lang-row">
+              <span>English</span>
+              <span>Professional</span>
+            </div>
+            <div class="lang-row">
+              <span>Hindi</span>
+              <span>Conversational</span>
+            </div>
+            <div class="lang-row">
+              <span>Tamil</span>
+              <span>Native</span>
+            </div>
+            <div class="lang-row">
+              <span>Telugu</span>
+              <span>Native</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Contact</h3>
+          <div class="section-card">
+            <p>If you’d like to discuss opportunities for QA Manual or Selenium Automation roles, feel free to reach out.</p>
+            <p><strong>Email:</strong> <a href="mailto:mvishnuvardhan1298@gmail.com">mvishnuvardhan1298@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+916301270449">+91 6301270449</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/vishnuvardhan1298" target="_blank">github.com/vishnuvardhan1298</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/vishnu-vardhan-122b2738b" target="_blank">linkedin.com/in/vishnu-vardhan-122b2738b</a></p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      © <span id="year"></span> M Vishnu Vardhan · QA Engineer – Manual & Automation Testing
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
